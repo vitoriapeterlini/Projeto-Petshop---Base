@@ -1,89 +1,171 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PetShop Amigo Fiel</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetShop Amigo Fiel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="img/logo-transparente.png" alt="Logotipo do petshop amigo fiel" width="100" />
+    </div>
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+    <button id="menu-btn">☰</button>
 
-  <body>
-    <!-- HEADER -->
-    <header>
-      <div class="logo">
-        <img src="img/logo-transparente.png" 
-        alt="Logotipo do petshop Amigo Fiel"
-        width="100"
-        />
+    <nav id="menu">
+      <a href="#home">Home</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Cuidando do seu melhor amigo</h1>
+      <p>Banho, tosa, veterinário e muito carinho.</p>
+      <a href="#contato" class="btn">Agendar Agora</a>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="container">
+    <h2>Nossos Serviços</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="img/banho.png" alt="Serviço de banho" />
+        <h3>Banho</h3>
+        <p>Banho completo e hidratação.</p>
       </div>
 
-      <button id="menu-btn">☰</button>
-
-      <nav id="menu">
-        <a href="#home">Home</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#contato">Contato</a>
-        <a href="#localizacao">Localização</a>
-      </nav>
-
-    </header>
-
-    <!-- HERO -->
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <h1>Cuidando do seu melhor amigo</h1>
-        <p>Banho, tosa, veterinário e muito carinho</p>
-        <a href="#contato" class="btn">Agendar Agora</a>
+      <div class="card">
+        <img src="img/tosa.png" alt="Serviço de tosa" />
+        <h3>Tosa</h3>
+        <p>Tosa profissional para seu pet.</p>
       </div>
-    </section>
 
-    <!-- SERVIÇOS -->
-    <section id="servicos" class="container">
-      <h2>Nossos Serviços</h2>
-
-      <div class="cards">
-        <div class="card">
-          <img src="img/banho.png" alt="Serviço de Banho"/>
-          <h3>Banho</h3>
-          <p>Banho completo e hidratação.</p>
-        </div>
-        
-        <div class="card">
-          <img src="img/tosa.png" alt="Serviço de Tosa"/>
-          <h3>Tosa</h3>
-          <p>Tosa profissional para seu pet.</p>
-        </div>
-        
-        <div class="card">
-          <img src="img/veterinario.png" alt="Serviço de Veterinário"/>
-          <h3>Veterinário</h3>
-          <p>Consultas e vacinas.</p>
-        </div>
+      <div class="card">
+        <img src="img/veterinario.png" alt="Serviço de Veterinário" />
+        <h3>Veterinário</h3>
+        <p>Consultas e vacinas.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- GALERIA -->
-    <section id="galeria" class="container"></section>
 
-    <!-- CONTATO -->
-    <section id="contato" class="container"></section>
+  <section id="produtos" class="container">
+    <h2>Nossos Produtos</h2>
+    <class class="cards">
+      <div class="card">
+        <img src="img/Racao-Pedigree-Caes-Adultos-Racas-Medias-e-Grandes-Carne-e-Vegetais-20kg-1.png" alt="Ração para cachorro">
+        <h3>Ração Pedigree Nutrição Essencial</h3>
+        <p>Ração nutritiva para cães.</p>
+        <span class="preco">R$ 255,92</span>
+        <button>Comprar</button>
+      </div>
 
-    <!-- MAPA -->
-    <section id="localizacao" class="container"></section>
+      <div class="card">
+        <img src="img/brinquedo-mordedor-com-bola-para-cachorro-434117.jpg" alt="Brinquedos para seu pet.">
+        <h3>Brinquedo mordedor para cachorro</h3>
+        <p>Brinquedos especiais para seu pet!</p>
+        <span class="preco">R$ 30,90</span>
+        <button>Comprar</button>
+      </div>
 
-    <!-- FOOTER -->
-    <footer></footer>
+      <div class="card">
+        <img src="img/guia_peitoral_coleira_pet_cachorro_medio_grande_porte_cactus_9534_1_c7e09f3e8864a1175fc03b23cbe12e77.webp" alt="Coleira para seu pet.">
+        <h3>Guia peitoral para cachorro</h3>
+        <p>Guia ajustável e confortável para seu pet</p>
+        <span class="preco">R$ 59,90</span>
+        <button>Comprar</button>
+      </div>
+      
+        <div class="card">
+        <img src="img/casinha dog.jpg" alt="Casinha para seu pet.">
+        <h3>Casinha de cachorro </h3>
+        <p>Casa de madeira</p>
+        <span class="preco">R$ 79,19</span>
+        <button>Comprar</button>
+      </div>
 
-    <script src="js/script.js"></script>
-  </body>
+       <div class="card">
+        <img src="img/pote para dog.webp" alt="Pote para seu pet.">
+        <h3>Pote para seu pet</h3>
+        <p>Pote ração e água</p>
+        <span class="preco">R$ 50,19</span>
+        <button>Comprar</button>
+      </div>
+
+      <div class="card">
+        <img src="img/RoupaPet.webp" alt="Roupa para seu pet.">
+        <h3>Roupas para seu pet</h3>
+        <p>Roupas quentes e confortáveis para seu pet</p>
+        <span class="preco">R$ 15,00</span>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- GALERIA -->
+  <section id="galeria" class="container">
+    <h2>Galeria de Fotos</h2>
+    <div class="galeria">
+      <img src="img/tosa.png" alt="Foto de tosa" />
+      <img src="img/pets.png" alt="Foto de pets" />
+      <img src="img/banho.png" alt="Foto de banho" />
+      <img src="img/veterinario.png" alt="Foto de veterinário" />
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="container">
+    <h2>Entre em Contato</h2>
+    <form id="formContato">
+      <input type="text" placeholder="Digite seu Nome..." id="nome" name="nome" />
+
+      <input type="email" placeholder="Digite seu E-mail.." id="email" name="email" />
+
+      <textarea placeholder="Digite sua Mensagem..." id="mensagem" name="mensagem"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- MAPA -->
+  <section id="localizacao" class="container">
+    <h2>Como Chegar</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.98295450144!2d-49.06625429999999!3d-22.3164844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67bbfcb4e327%3A0x5eb0062385684add!2sBoulevard%20Shopping%20Bauru!5e0!3m2!1spt-BR!2sbr!4v1778679534483!5m2!1spt-BR!2sbr"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 PetShop Amigo Fiel. Todos os direitos reservados.</p>
+    <a href="https://www.instagram.com/associacao_amigofiel?igsh=cG5jbTd5NXl4Nmlk" target="_blank">Instagram</a> |
+
+    <a href="https://api.whatsapp.com/send/?phone=551930299027&text=Oi,%20cheguei%20at%C3%A9%20voc%C3%AAs%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20Veterin%C3%A1rio!"
+      target="_blank">WhatsApp</a> |
+
+    <a href="https://www.facebook.com/groups/131672970865147/?ref=share" target="_blank">Facebook</a>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>
