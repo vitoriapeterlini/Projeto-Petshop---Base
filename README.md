@@ -44,7 +44,7 @@ Projeto-PetShop/
 ---
 
 ## Tecnologias Utilizadas
-- HTMLS semântico
+- HTML5 semântico
 - CSS3 com variáveis e responsividade
 - JavaScript puro (ES6+)
 - Google Fonts (poppins)

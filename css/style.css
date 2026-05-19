@@ -8,6 +8,18 @@
   --radius: 20px;
 }
 
+@media (prefers-color-scheme: dark){
+  :root {
+  --primaria: #292929;
+  --secundaria: #4534dc;
+  --escuro: #0f172a;
+  --claro: #ffffff;
+  --texto: #334155;
+  --sombra: 0 8px 30px rgba(0, 0, 0, 0.2);
+  --radius: 20px;
+}
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -220,7 +232,7 @@ button {
 }
 
 button:hover {
-  background: #3c43c4;
+  background: #020aa6;
 }
 /* RODAPE */
 footer {
@@ -318,4 +330,11 @@ footer a:hover {
 
 .sobre-box p {
   margin-bottom: 20px;
+}
+
+.topo-sobre {
+  padding: 100px 20px 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #865af4, #3524f6);
+  color: white;
 }
